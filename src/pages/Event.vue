@@ -3,7 +3,7 @@
         <h1 class="db-title">
             Events
         </h1>
-        <div class="db-bride">
+        <div class="db-bride-2">
             <!-- <img src="" alt="" class="db-bride-img"> -->
             <div class="db-bride__name">
                 Rochayati Febriarhamadini S.Sos. M.Si.
@@ -11,9 +11,7 @@
             <div class="db-bride__detail">
                 Putri ke 2 dari pasangan Bpk Eddy Suryadi S.E. M.M. dan Ibu Siti Barkah S.Ag.
             </div>
-        </div>
-        <div class="db-bride">
-            <!-- <img src="" alt="" class="db-bride-img"> -->
+            <img src="@/assets/img_2.png" alt="" class="db-bride-img">
             <div class="db-bride__name">
                 Dwi Prabowo S.T. M.Si.
             </div>
@@ -60,11 +58,11 @@ h1.db-title {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
 }
-.db-bride {
+.db-bride-2 {
     border-radius: 4px;
     margin: 8px auto;
-    width: calc(100% - 60px);
-    padding: 16px;
+    width: calc(100% - 32px);
+    padding: 16px 0px;
     background: #e5e5e5;
     display: block;
 }
@@ -73,11 +71,13 @@ h1.db-title {
     color: #313F23;
     font-size: 16px;
     margin-bottom: 5px;
+    padding: 0px 16px;
 }
 .db-bride__detail {
     font-family: 'Poppins', cursive;
     color: #506538;
     font-size: 11px;
+    padding: 0px 16px;
 }
 .db-event {
     border-radius: 0px;
@@ -105,5 +105,11 @@ h1.db-title {
     margin: 20px auto;
     height: 1px;
     background: #FFF;
+}
+.db-bride-img {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 </style>
