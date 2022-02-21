@@ -1,20 +1,18 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png" class="db-logo">
-    <h2>
-      DINI & BOWO
-    </h2>
-    <h4>
-      19 / 03 / 2022
-    </h4>
+    <router-view></router-view>
+    <Navigation />
   </div>
   
 </template>
 
 <script>
-
+import Navigation from './components/Navigation.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navigation
+  }
 }
 </script>
 
@@ -26,14 +24,14 @@ export default {
   text-align: center;
   color: #FFF;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 0px;
   width: 100%;
-  max-width: 320px;
 }
 html {
   background: #798776;
+  margin: 0;
 }
-img.db-logo {
-  width: 320px
+body {
+  margin: 0;
 }
 </style>
