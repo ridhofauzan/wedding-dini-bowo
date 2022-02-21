@@ -1,4 +1,4 @@
-# wedding-dini-bowo
+# wedding-dini-bowo-2
 
 ## Project setup
 ```
