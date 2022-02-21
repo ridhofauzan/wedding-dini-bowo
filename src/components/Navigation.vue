@@ -42,7 +42,7 @@ export default {
 .db-nav-link {
     width: calc(25% - 32px);
     display: inline-block;
-    padding: 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 .router-link-active.db-nav-link {

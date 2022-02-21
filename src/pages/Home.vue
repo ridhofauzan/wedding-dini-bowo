@@ -7,6 +7,7 @@
 <style>
 .db-wrapper {
     width: 100%;
+    padding-bottom: 70px;
 }
 img.db-logo {
   width: 100%;
