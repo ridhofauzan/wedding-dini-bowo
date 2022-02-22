@@ -4,21 +4,14 @@
             Gift
         </h1>
         <div class="db-bride">
+            <img src="@/assets/bca.png" width="100" alt="">
             <div class="db-event__title">
                 Rochayati Febriarhamadini
             </div>
             <div class="db-event__detail">
-                12300000000000
+                7510483396
             </div>
             <a @click="copyToClipBoard(rekDini)" href="#" class="db-maps__btn">Salin Nomor Rekening</a>
-            <div class="db-bar-2"></div>
-            <div class="db-event__title">
-                Dwi Prabowo
-            </div>
-            <div class="db-event__detail">
-                12300000000000
-            </div>
-            <a @click="copyToClipBoard(rekBowo)" href="#" class="db-maps__btn">Salin Nomor Rekening</a>
         </div>
     </div>
 </template>
@@ -28,8 +21,8 @@
 import { ref } from 'vue'
 export default {
     setup() {
-        const rekDini = ref('123000000')
-        const rekBowo = ref('123000000')
+        const rekDini = ref('7510483396')
+        // const rekBowo = ref('123000000')
 
         const copyToClipBoard = (params) => {
             navigator.clipboard.writeText(params).then(function() {
@@ -39,7 +32,7 @@ export default {
             });
         }
 
-        return { rekDini, rekBowo, copyToClipBoard }
+        return { rekDini, copyToClipBoard }
     }
 }
 </script>
