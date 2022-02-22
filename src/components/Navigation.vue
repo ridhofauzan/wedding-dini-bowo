@@ -12,10 +12,6 @@
             <RemixIcon icon="map-pin" />
             <div class="db-nav-link__text">Location</div>
         </router-link>
-        <router-link to="/gift" class="db-nav-link">
-            <RemixIcon icon="gift" />
-            <div class="db-nav-link__text">Gift</div>
-        </router-link>
     </div>
 </template>
 
@@ -40,7 +36,7 @@ export default {
     background: #fafafa;
 }
 .db-nav-link {
-    width: calc(25% - 32px);
+    width: calc(33% - 32px);
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;

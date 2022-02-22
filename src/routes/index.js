@@ -3,7 +3,6 @@ import { createWebHistory, createRouter } from 'vue-router'
 import Home from '../pages/Home.vue'
 import Event from '../pages/Event.vue'
 import Maps from '../pages/Maps.vue'
-import Gift from '../pages/Gift.vue'
 
 const routes = [
     {
@@ -26,14 +25,6 @@ const routes = [
         path: "/maps",
         name: "Location",
         component: Maps,
-        meta: {
-            title: "DINI & BOWO | Wedding Invitation"
-        }
-    },
-    {
-        path: "/gift",
-        name: "Gift",
-        component: Gift,
         meta: {
             title: "DINI & BOWO | Wedding Invitation"
         }
